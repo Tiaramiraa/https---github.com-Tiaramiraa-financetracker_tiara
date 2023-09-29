@@ -1,4 +1,4 @@
-name: financetracker_tiara2
+name: financetracker_tiara
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -34,6 +34,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  http: ^0.13.5
+  fluttertoast: ^8.2.2
+  sqflite: ^2.0.3+1
+  intl: ^0.18.1
+  path_provider: ^2.0.15
 
 dev_dependencies:
   flutter_test:
@@ -51,6 +57,11 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - images/
+    - images/logo.png
+    - images/profil.jpg
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
